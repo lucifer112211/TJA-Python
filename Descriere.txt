@@ -1,0 +1,5 @@
+In cadrul acestui proiect am realizat un program care antreneaza un model pentru a detecta unele celule din sangele uman. Am ales acest subiect asa cum 
+nu toate aparatele de analiza a sangelui sunt indeajuns de performante pentru a detecta prin imagini foto respectivele celule. Modelul poate fi folosit pentru detectarea a 4 tipuri de celule:
+Eozinofile, Limfocite, Monocite, Neutrofile. Acestea respectiv pot fi folosite pentru diagnosticarea ulterioara a pacientului.
+Modelul realizat are o precizie de aproximativ 80%, antrenat pe un set de date ce contine imagini cu diferite celule enumerate mai sus. Aceasta precizie pentru laboratoare
+este satisfacatoare. Modelul antrenat poate fi folosit ca o alternativa mai ieftina de catre laboratoare, pentru identificarea acestor celule. De asemenea este posibila realizarea unui model si pentru alt tip de celule, dar este necesar un set de date pentru celula respectiva.
